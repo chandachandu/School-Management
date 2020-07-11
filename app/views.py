@@ -29,4 +29,4 @@ class adminLogin(View):
         return redirect(redirectpage)
 
 def adminLogout(request):
-    return HttpResponse('Logout Successfully')
+    return HttpResponse('You Logout Successfully')
